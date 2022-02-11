@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto&display=swap');
+
+.register-form {
+    padding: 20px 50px;
+    background-color: #fff;
+    border-radius: 10px;
+    -webkit-box-shadow: 0 5px 10px 0px rgb(0 0 0 / 10%);
+    -o-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+    -ms-box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+div.btn,
+button.btn {
+    background-color: #4e73df;
+    color: #eee;
+}
+
+div.btn:hover,
+button.btn:hover {
+    background-color: #4e73df12;
+}
+
+#language {
+    float: right;
+}
+
+#language select {
+    border: none;
+    outline: none;
+}
+
+.h3 {
+    padding-top: 40px;
+    font-size: 34px;
+}
+
+label {
+    display: block;
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+input {
+    border: none;
+    outline: none;
+    width: 75%;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #adadad !important;
+}
+
+#country {
+    border: none;
+    outline: none;
+    width: 100%;
+    padding-bottom: 12px;
+    border-bottom: 2px solid #ddd !important;
+}
+
+.wrapper .col-md-6:hover label {
+    color: #4e73df;
+}
+
+.wrapper .col-md-6:hover input,
+.wrapper .col-md-6:hover #country {
+    border-color: #adadad;
+    cursor: pointer;
+}
+
+.wrapper .col-md-6 input:focus {
+    border-color: #adadad;
+}
+
+@media(max-width: 991px) {
+    .dropdown-menu {
+        border: none;
+    }
+
+    #language {
+        padding-top: 20px;
+    }
+}
+
+@media(max-width: 767px) {
+    div.btn {
+        width: 100%;
+    }
+
+    .h3 {
+        font-size: 25px;
+    }
+}
+
+@media(max-width: 374px) {
+    .h3 {
+        font-size: 21px;
+    }
+}
